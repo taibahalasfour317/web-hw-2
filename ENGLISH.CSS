@@ -1,0 +1,32 @@
+body{ 
+    margin: 0;
+    background-color:#f4f2e9;
+    
+}
+
+.book{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+.col{
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.navbar-brand{
+    text-align: right;
+}
+
+.nav-link{
+    color: gray;
+    font-size: 15px;
+    padding: .5rem 1rem;}
+
+
+

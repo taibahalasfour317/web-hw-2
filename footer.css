@@ -1,0 +1,59 @@
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-twitter {
+    color: white;
+    text-align: left;
+    padding: 10px;}
+  
+  .fa-instagram {
+  
+    color: white;
+    text-align: center;
+    padding: 10px;}
+  
+    .fa-google {
+    
+      color: white;
+      text-align: right;
+      padding: 10px;}
+  
+  .copy{
+      font-style: oblique;
+    color:white;
+    font-family: "Sofia";
+  }
+  
+  .footer-copyright {
+    font-size:oblique ;
+    color:black;
+    font-family: "sofia" ;
+  }
+  
+  .connect{
+    color: white;
+    font-style: bold;
+    text-align: center;
+  }
+    
+  .page-footer{
+    background-color:#ffc107;
+  }
+
+  .dropdown-item{
+      color:gray ;
+  }
+  
+  
+  

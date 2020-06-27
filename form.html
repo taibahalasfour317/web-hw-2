@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/books.png"/>
+    <link rel="stylrsheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./footer.css"/>
+
+    <style>
+
+.form-control {
+            display: inherit;
+            width: 50%;
+            padding: .200rem .60rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+      .form{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+          } 
+    
+</style>
+
+<nav class="navbar navbar-expand-lg navbar bg-warning">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#"><img src="https://img.icons8.com/doodle/48/000000/books.png" style="width:60%;"/></a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="./books.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ARABIC.html">ARABIC BOOKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./EINGLISH.HTML">ENGLISH BOOKS</a>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./form.html">sign in to our BOOK CLUB</a>
+      </li>
+
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          For more info BOOKS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"> Search 
+        </button>
+      </form>
+    </div>
+  </nav>
+</head>
+<body>
+    <hr>
+    <br>
+
+   <div class="form"> <form>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Fav BOOKS</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Novels
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  classic 
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                <label class="form-check-label" for="gridRadios3">
+                  Fanfiction
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row text-center" >
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-info
+            justify-content-center
+            ">Sign in</button>
+          </div>
+        </div>
+      </form> 
+    </div>
+      
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+   <div class="connect">
+    CONNECT:
+   </div>
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-google"></a> 
+       </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-instagram"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-twitter"></a>
+        </i>
+  
+      </li>
+    </ul>
+  
+
+  </div>
+  <!-- Footer Elements -->
+
+<!-- Footer -->
+
+   
+  
+  
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#" > taibah</a>
+  </div>
+  <!-- Copyright -->
+ 
+
+   </footer>
+</html>
